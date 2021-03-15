@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Input field animation</title>
+    <style>
+      form {
+
+  margin: 100px;
+
+}
+
+.input-field {
+
+  position: relative;
+
+  width: 250px;
+
+  height: 44px;
+
+  line-height: 44px;
+
+  margin-bottom: 20px;
+
+}
+
+label {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  color: #d3d3d3;
+
+  transition: 0.2s all;
+
+  cursor: text;
+
+}
+
+input {
+
+  width: 100%;
+
+  border: 0;
+
+  outline: 0;
+
+  padding: 0.5rem 0;
+
+  border-bottom: 2px solid #d3d3d3;
+
+  box-shadow: none;} 
+    </style>
+  </head>
+<body>
+  <form action="">
+  <div class="input-field">
+    <input type="text" id="name" required />
+    <label for="name">Your name:</label>
+  </div>
+  <div class="input-field">
+   <input type="password" id="password" required/>
+   <label for="password">Password:</label>
+  </div>
+  <div class="submit">
+    <input type="submit" id="submit"  class="submit" value="Register">
+  </div>
+</form>
+</body>
+</html>
